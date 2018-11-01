@@ -9,7 +9,7 @@ export default class Root extends Component {
     return (
       <Router>
         <Scene key="Root">
-          <Scene key="form" component={Form} initial />
+          <Scene key="Form" component={Form} initial />
         </Scene>
       </Router>
     );
